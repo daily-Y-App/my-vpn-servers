@@ -1,0 +1,117 @@
+{
+  "version": 1,
+  "last_updated": "2024-05-20",
+  "server_count": 10,
+  "servers": [
+    {
+      "id": 1,
+      "name": "TH Premium SSH",
+      "host": "premium.thailandssh.com",
+      "port": 22,
+      "type": "SSH",
+      "country": "TH",
+      "active": true,
+      "ping": 89,
+      "provider": "DTAC"
+    },
+    {
+      "id": 2,
+      "name": "TH UDP Fast",
+      "host": "th.v2ray.sshdropbear.net",
+      "port": 53,
+      "type": "UDP",
+      "country": "TH",
+      "active": true,
+      "ping": 75,
+      "provider": "DTAC"
+    },
+    {
+      "id": 3,
+      "name": "SG SSH Backup",
+      "host": "sgp.freevpn.access",
+      "port": 22,
+      "type": "SSH",
+      "country": "SG",
+      "active": true,
+      "ping": 120,
+      "provider": "General"
+    },
+    {
+      "id": 4,
+      "name": "TH WebSocket",
+      "host": "th1.websocket.vpn.net",
+      "port": 443,
+      "type": "WS",
+      "country": "TH",
+      "active": true,
+      "ping": 95,
+      "provider": "DTAC"
+    },
+    {
+      "id": 5,
+      "name": "MY TCP Proxy",
+      "host": "my.tcptunnel.proxy",
+      "port": 3128,
+      "type": "TCP",
+      "country": "MY",
+      "active": true,
+      "ping": 110,
+      "provider": "General"
+    },
+    {
+      "id": 6,
+      "name": "TH SSL Tunnel",
+      "host": "ssl.thvpn.link",
+      "port": 8443,
+      "type": "SSL",
+      "country": "TH",
+      "active": true,
+      "ping": 82,
+      "provider": "DTAC"
+    },
+    {
+      "id": 7,
+      "name": "VN UDP Relay",
+      "host": "vn.relay.udp.site",
+      "port": 7300,
+      "type": "UDP",
+      "country": "VN",
+      "active": true,
+      "ping": 105,
+      "provider": "General"
+    },
+    {
+      "id": 8,
+      "name": "TH SSH Edu",
+      "host": "edu.sshserver.th",
+      "port": 8022,
+      "type": "SSH",
+      "country": "TH",
+      "active": true,
+      "ping": 99,
+      "provider": "DTAC"
+    },
+    {
+      "id": 9,
+      "name": "ID SOCKS5",
+      "host": "id.socks5.proxy",
+      "port": 1080,
+      "type": "SOCKS5",
+      "country": "ID",
+      "active": true,
+      "ping": 150,
+      "provider": "General"
+    },
+    {
+      "id": 10,
+      "name": "TH Fallback",
+      "host": "backup.thvpn.xyz",
+      "port": 8080,
+      "type": "HTTP",
+      "country": "TH",
+      "active": true,
+      "ping": 130,
+      "provider": "DTAC"
+    }
+  ]
+}
