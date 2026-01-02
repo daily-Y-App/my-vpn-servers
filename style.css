@@ -44,22 +44,19 @@ body {
     font-size: 14px;
 }
 
-.power-btn {
-    width: 130px;
-    height: 130px;
-    border-radius: 50%;
-    border: 10px solid white;
-    background: #333;
-    color: white;
-    font-size: 50px;
-    cursor: pointer;
-    margin: 30px 0;
-    transition: 0.3s;
+/* Power Button ကို ပိုကောင်းအောင် ပြင်မယ် */
+.powerBtn {
+    font-family: Arial, sans-serif !important; /* Icon မပေါ်ရင် စာသားပေါ်အောင် */
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.power-btn.connected {
-    background: #4CAF50;
-    box-shadow: 0 0 20px #4CAF50;
+/* ချိတ်ဆက်သွားရင် အရောင်ပြောင်းမယ် */
+.connected {
+    background-color: #4CAF50 !important;
+    box-shadow: 0 0 15px #4CAF50;
 }
+
 
 .timer { font-weight: bold; color: #333; }
